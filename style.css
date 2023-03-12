@@ -93,9 +93,7 @@ img{
     object-fit: cover;
 }
 
-/* ------------------------------nav------------------------------
-----------------------------------------------nav------------------
----------------------nav */
+/* ------------------------------nav----------------------------------------------------------------------------nav----------------------------------------------------------------------------------nav */
 nav{ 
     background: var(--color-primary);
     width: 100vh;
@@ -140,6 +138,8 @@ nav button{
     cursor: pointer;
 }
 
+
+
 .nav__profile ul{
     position: absolute;
     top: 125%;
@@ -147,11 +147,17 @@ nav button{
     display: flex;
     flex-direction: column;
     box-shadow: 0 3rem 3rem rgba(0, 0 ,0, 0.4);
-    background: var(--color-grey-900);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
 }
-
+/* show nav ul when nva profile is hover  */
+.nav__profile:hover >ul {
+    visibility: visible;
+    opacity: 1;
+}
 .nav__profile ul li a{
-    padding: 1rem;
+    padding: 1rem; 
     background: var(--color-grey-900);
     display: block;
     width: 100%;

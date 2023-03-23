@@ -10,6 +10,7 @@
     --color-grey-700:#2d2b7c;
     --color-grey-300:rgba(242,242,254,0.3);
     --color-grey-300:rgba(242,242,254,0.7);
+    --color-grey-600:#ffffff;
     --color-white:#f2f2fe;
     --color-bg:#0f0f3e;
 
@@ -41,7 +42,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: var(--color-grey-900);
+    color: var(--color-grey-600);
     overflow-x: hidden;
     background: var(--color-bg);
     font-size: 0.9rem;

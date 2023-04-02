@@ -55,7 +55,7 @@ body{
 
 section{
     margin-top: 3rem;
-    width: 100vh;
+    width: 100vw;
 }
 
 h1,h2,h3,h4,h5{
@@ -96,7 +96,7 @@ img{
 /* ------------------------------nav----------------------------------------------------------------------------nav----------------------------------------------------------------------------------nav */
 nav{ 
     background: var(--color-primary);
-    width: 100vh;
+    width: 100vw;
     height: 4.5rem;
     position: fixed;
     top: 0;
@@ -192,4 +192,22 @@ nav button{
     border: 1rem solid var(--color-grey-900);
     overflow: hidden;
     margin-bottom: 1.6rem;
+}
+
+.post:hover .post__thumbnail img {
+    filter: saturate(0);
+    transition: filter 500ms ease;
+}
+
+.post__author {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.post__author-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
 }

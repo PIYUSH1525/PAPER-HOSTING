@@ -162,6 +162,7 @@ nav button{
     display: block;
     width: 100%;
 }
+
 .nav__profile ul li:last-child a {
     background: var(--color-red);
     color: var(--color-bg);
@@ -170,3 +171,25 @@ nav button{
 
 
 /* ------------------------------------------Category Button---------------------------------- */
+.category__button{
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius:  var(--card-border-radius-2);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.category__button:hover{
+    color: var(--color-white);
+}
+
+/* ------------------------------------------General Post---------------------------------- */
+.post__thumbnail{
+    border-radius: var(--card-border-radius-5);
+    border: 1rem solid var(--color-grey-900);
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}

@@ -201,23 +201,28 @@
     display: block;
     text-align: center;
     
+    
   }
   ul li ul.dropdown {
     width: 10%;
-    background: #ffffff;
+    background: var(--nsu-purple);
     position: absolute;
     z-index: 999;
     display: none;
-    border-radius: 10%;
+    border-radius: 5%;
+   
+    
   }
-  ul li ul dropdown .span{
+  .list_item{
     color: aliceblue;
+    transition-duration: 500ms;
   }
   ul li a:hover{
     background: var(--amaranth)
   }
   ul li:hover ul.dropdown {
     display: block;
+   
   }
   
   /*-----------------------------------*\

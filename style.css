@@ -197,10 +197,28 @@
     top: 20px;
     right: 15px;
   }
-  
-  
-  
-  
+  ul li ul.dropdown li{
+    display: block;
+    text-align: center;
+    
+  }
+  ul li ul.dropdown {
+    width: 10%;
+    background: #ffffff;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10%;
+  }
+  ul li ul dropdown .span{
+    color: aliceblue;
+  }
+  ul li a:hover{
+    background: var(--amaranth)
+  }
+  ul li:hover ul.dropdown {
+    display: block;
+  }
   
   /*-----------------------------------*\
    * #MAIN

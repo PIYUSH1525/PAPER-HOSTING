@@ -800,9 +800,9 @@
       top: 50%;
       right: -100px;
       transform: translateY(-50%);
-      background: url("assets/images/hero.png") no-repeat;
+      background: url("assets/images/group.png") no-repeat;
       background-size: contain;
-      width: 70%;
+      width: 50%;
       padding-bottom: 50%;
     }
   

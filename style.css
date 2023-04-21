@@ -574,8 +574,11 @@ header .container {
      * REUSED STYLE
      */
   
-    .container { max-width: 700px; }
-  
+    .container { max-width: 700px;
+        margin: auto;
+        width: 100%;
+      }
+    
   
   
     /**
@@ -588,7 +591,7 @@ header .container {
       margin: auto;
       gap: 80px;
     }
-  
+    
   
   
     /**
@@ -622,7 +625,9 @@ header .container {
      * REUSED STYLE
      */
   
-    .container { max-width: 970px; }
+    .container { max-width: 970px; 
+      margin: auto;
+      width: 100%;}
   
    /**
    * HEADER
@@ -814,6 +819,7 @@ header .container {
     text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
   }
   .container2{
+    justify-content: center;
     display: grid;
     gap: 15px;
     grid-template-columns:repeat(auto-fit, minmax(270px ,1fr)) ;

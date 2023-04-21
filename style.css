@@ -546,6 +546,7 @@ header .container {
     .container {
       max-width: 520px;
       margin: auto;
+      width: 100%;
     }
 
   
@@ -850,6 +851,7 @@ header .container {
     color: #f8f5f5;
     font-size: 14px;
     line-height: 1.6;
+
   }
   .btn{
     color: #fff;

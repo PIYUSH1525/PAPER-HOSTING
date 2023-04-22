@@ -831,7 +831,7 @@ header .container {
     text-align: center;
     border-radius: 15px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--xiketic-2);
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -848,7 +848,7 @@ header .container {
     width: 50%;
   }
   .box h3{
-    color: #000000;
+    color: #ffffff;
     padding: 10px 0;
     font-size: 20px;
   }

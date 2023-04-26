@@ -852,6 +852,7 @@ box-shadow: #ff9f0d 0px 1px 25px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+    
     }
   
     .footer-link-box { grid-template-columns: repeat(4, 1fr); }

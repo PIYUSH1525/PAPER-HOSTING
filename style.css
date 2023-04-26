@@ -624,7 +624,7 @@ box-shadow: #ff9f0d 0px 1px 25px;
   
     .overview-content { padding: 0 40px 50px; }
   
-  
+
   }
   
   
@@ -940,7 +940,7 @@ box-shadow: #ff9f0d 0px 1px 25px;
   }
   .box{
     width: 280px;
-    height: 400px;
+    height: 350px;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
@@ -952,6 +952,8 @@ box-shadow: #ff9f0d 0px 1px 25px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
+    margin-left: auto;
+    margin-right: auto;
     /* background:var(--nsu-purple);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
   }

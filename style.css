@@ -125,7 +125,7 @@
   
   .h1,
   .h2,
-  .h3,
+  
   .h5 {
     font-weight: var(--fw-500);
     line-height: 1.3;
@@ -245,23 +245,33 @@ box-shadow: #ff9f0d 0px 1px 25px;
     gap: 2rem;
     align-items: center;
     margin-top: 4rem;
+   
     }
 .row{
     position: relative;
     padding: 10px 35px 40px;
     background: var(--other-color);
     border-radius: 3rem;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
     }
 .row img{
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
     height: auto;
     transition: transform .50s ease;
     cursor: pointer;
+    padding-top: 12px;
  }  
 .row h3{
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
   }
 .row p{
   color: var(--second-color);
@@ -279,6 +289,11 @@ box-shadow: #ff9f0d 0px 1px 25px;
     color: var(--main-color);
     font-weight: 600;
     }   
+
+.s-btnn{
+  margin-left: auto;
+  margin-right: auto;
+}    
 .in-text .s-btnn a{
     display: inline-block;
     padding: 9px 23px;
@@ -294,15 +309,6 @@ box-shadow: #ff9f0d 0px 1px 25px;
       background: var(--main-color);
       color: var(--bg-color);
       box-shadow: #ff9f0d 0px 1px 25px;
-      }
-.top-icon{
-      position: absolute;
-      top: 30px;
-      Left: 35px;
-      }
-.top-icon i{
-      font-size: 22px;
-      color: var(--main-color);
       }
 .row-btn{
     text-align: center;

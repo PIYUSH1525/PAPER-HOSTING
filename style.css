@@ -239,7 +239,7 @@ box-shadow: #ff9f0d 0px 1px 25px;
 .middle-text h2{
     font-size: var(--h2-font);
     }
-.shop-content{
+.collage-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 2rem;
